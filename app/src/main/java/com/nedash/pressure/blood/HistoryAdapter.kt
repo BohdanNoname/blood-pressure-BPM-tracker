@@ -47,7 +47,7 @@ class HistoryAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) =
         holder.bind(getItem(position))
 
-    override fun getItemCount(): Int = size ?: currentList.size
+    override fun getItemCount(): Int = if(currentList.size <= 3) currentList.size else size ?: currentList.size
 
     inner class ViewHolder(private val binding: ItemBpmResultBinding) :
         RecyclerView.ViewHolder(binding.root) {
