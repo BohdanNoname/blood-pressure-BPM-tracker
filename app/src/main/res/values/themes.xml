@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BloodPressureBPMTracker" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.BloodPressureBPMTracker" parent="Base.Theme.BloodPressureBPMTracker" />
+
+    <style name="NumberPickerTheme" parent="Theme.BloodPressureBPMTracker">
+        <item name="colorControlNormal">@color/dividerColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

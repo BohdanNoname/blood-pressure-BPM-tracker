@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Blood Pressure BPM Tracker</string>
+    <string name="systolic">Systolic</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="pulse">Pulse</string>
+    <string name="pulse_s">Pulse: %s</string>
+    <string name="mmhg">(mmHg)</string>
+    <string name="bpm">(BPM)</string>
+    <string name="date_amp_time"><![CDATA[Date & Time]]></string>
+    <string name="save">Save</string>
+    <string name="data_is_empty">Data is empty</string>
+    <string name="add_new_result">Add New Result</string>
+    <string name="last_changed_results">Last Changed Results</string>
+    <string name="view_all">View All</string>
+    <string name="new_record">New Record</string>
+    <string name="history">History</string>
+</resources>
